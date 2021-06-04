@@ -1,0 +1,318 @@
+@font-face {
+  font-family: "poppins";
+  src: url("../media/fonts/poppins-bold-webfont.woff2") format("woff2"),
+    url("../media/fonts/poppins-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("../media/fonts/poppins-light-webfont.woff2") format("woff2"),
+    url("../media/fonts/poppins-light-webfont.woff") format("woff");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "poppinslight_italic";
+  src: url("../media/fonts/poppins-lightitalic-webfont.woff2") format("woff2"),
+    url("../media/fonts/poppins-lightitalic-webfont.woff") format("woff");
+  font-weight: lighter;
+  font-style: italic;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  font-family: "poppins";
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 2rem;
+}
+
+@media (min-width: 50rem) {
+  .navigation {
+    justify-content: flex-start;
+  }
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+@media (min-width: 50rem) {
+  .navigation a {
+    padding: 2rem;
+  }
+}
+
+.navigation a:hover {
+  color: rgb(9, 71, 71);
+}
+
+.intro-container {
+  width: 100%;
+  padding-left: 1rem;
+}
+
+@media (min-width: 50rem) {
+  .intro-container {
+    display: flex;
+  }
+}
+
+.intro-exp {
+  margin-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 50rem) {
+  .intro-exp {
+    font-size: larger;
+    padding-top: 2rem;
+  }
+}
+
+.img-cont {
+  text-align: center;
+}
+
+.foto {
+  transition: transform 0.2s;
+}
+
+.foto:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 50rem) {
+  .foto {
+    padding-right: 5rem;
+  }
+
+  .foto:hover {
+    transform: scale(1.02);
+  }
+}
+
+.middle-container__top {
+  background-color: rgb(57, 59, 59);
+  width: 100%;
+  padding: 1rem;
+}
+
+@media (min-width: 50rem) {
+  .middle-container__top {
+    font-size: larger;
+  }
+}
+
+.main_talents {
+  padding-left: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.main_talents li {
+  padding-bottom: 0.1rem;
+}
+
+.middle-container_lagn_rating {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+
+@media (min-width: 66rem) {
+  .middle-container_lagn_rating {
+    justify-content: space-between;
+    margin-left: 70%;
+    margin-right: 5%;
+  }
+}
+
+@media (min-width: 66rem) {
+  .middle-container__top h1 {
+    margin-left: 70%;
+  }
+}
+
+.main_talents-stars li img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.secondary_talents {
+  padding-left: 0;
+}
+
+.middle-container__middle {
+  padding: 1rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 66rem) {
+  .diensten-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.diensten-card {
+  background-color: rgb(57, 59, 59);
+  width: 70%;
+  height: 4.5rem;
+  padding: 1rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 0px;
+  border-radius: 15px;
+}
+
+@media (min-width: 66rem) {
+  .diensten-card {
+    margin: 1rem;
+    width: 40%;
+  }
+}
+
+.diensten-card:hover {
+  background-color: rgb(9, 71, 71);
+}
+
+.middle-container__middle_2 {
+  background-color: rgb(57, 59, 59);
+  padding: 1rem;
+  padding-bottom: 3rem;
+}
+
+.middle-container__middle_2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.middle-container__middle_2 h2 {
+  padding-top: 1rem;
+}
+
+.lastp {
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 66rem) {
+  .proj-school {
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: larger;
+  }
+}
+
+@media (min-width: 66rem) {
+  .proj-school__card {
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 66rem) {
+  .proj-vrij {
+      display: flex;
+    font-size: larger;
+  }
+}
+
+@media (min-width: 66rem) {
+    .proj-vrij__card {
+      padding-right: 2rem;
+      margin-top: 2rem;
+    }
+  }
+
+.boodschapper-img {
+  text-align: center;
+  display: none;
+}
+
+@media (min-width: 66rem) {
+  .boodschapper-img {
+    display: flex;
+  }
+}
+
+.gentsefeesten {
+  width: 25rem;
+  transition: transform 0.2s;
+}
+
+.gentsefeesten:hover {
+  transform: scale(1.1);
+}
+
+.githublink {
+    font-weight: bold;
+}
+
+.githublink:hover {
+  font-size: larger;
+}
+
+.middle-container__bottom {
+  padding: 1rem;
+}
+
+.middle-container__bottom a {
+  color: white;
+  text-decoration: none;
+}
+
+.middle-container__bottom a:hover {
+  font-weight: bold;
+}
+
+.mail {
+  display: flex;
+  align-items: baseline;
+}
+
+
+/*opsplitsing in html nog maken*/
+@media (min-width: 66rem) {
+    .mail{
+      display: flex;
+    }
+  }
+
+svg {
+  fill: white;
+  width: 1rem;
+  height: 1rem;
+}
+
+.mail p {
+  padding-left: 1rem;
+}
+
+.mail img {
+  width: 1rem;
+  height: 1rem;
+}
