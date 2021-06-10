@@ -126,6 +126,16 @@
     }
   }
 
+ main a {
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+ }
+
+ main a:hover {
+     color: rgb(255, 166, 0);
+ }
+
   .middle-container__top {
     background-color: rgb(57, 59, 59);
     padding-bottom: 2rem;
